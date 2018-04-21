@@ -1,0 +1,19 @@
+{
+  "name": "blue-submarine-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A soothing, easy-on-the-eye theme with gentle use of color.",
+  "keywords": [
+    "syntax",
+    "theme",
+    "purple",
+    "green",
+    "dark",
+    "white"
+  ],
+  "repository": "https://github.com/atom/blue-submarine-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
