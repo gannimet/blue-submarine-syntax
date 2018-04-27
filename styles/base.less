@@ -193,14 +193,32 @@ atom-text-editor {
 }
 
 .syntax--function-call {
-    &.syntax--function {
+    .syntax--function {
         color: @light-purple;
+    }
+}
+
+.syntax--undefined {
+    color: @purple;
+}
+
+.syntax--this {
+    color: @purple;
+}
+
+.syntax--declaration {
+    .syntax--function {
+        color: @light-purple;
+
+        &.syntax--type.syntax--arrow {
+            color: @white;
+        }
     }
 }
 
 .syntax--entity {
     &.syntax--name.syntax--function {
-        color: @white;
+        color: @light-purple;
     }
     &.syntax--name.syntax--type {
         color: @syntax-type-color;
