@@ -180,7 +180,7 @@ atom-text-editor {
     }
 
     &.syntax--function  {
-        color: @purple;
+        color: @light-purple;
 
         &.syntax--any-method {
             color: @white;
@@ -189,6 +189,12 @@ atom-text-editor {
 
     &.syntax--primitive {
         color: @syntax-type-color;
+    }
+}
+
+.syntax--function-call {
+    &.syntax--function {
+        color: @light-purple;
     }
 }
 
